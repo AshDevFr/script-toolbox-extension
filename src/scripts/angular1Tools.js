@@ -1,10 +1,8 @@
-
+(function (window) {
   'use strict';
 
   $br = window.$br = (window.$br || {});
   $br.ng = godMode();
-
-  // Angular JS
 
   function getWatchers(root) {
     root = angular.element(root || document.documentElement);
@@ -78,3 +76,4 @@
       };
     return {};
   }
+})(window);
