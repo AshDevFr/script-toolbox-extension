@@ -3,7 +3,7 @@
 
   "name": "BearsJS Toolbox",
   "description": "This extension add few functions in your console ($br)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icons": {
     "16": "src/assets/icon-16x16.png",
     "32": "src/assets/icon-32x32.png",
