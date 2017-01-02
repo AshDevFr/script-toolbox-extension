@@ -33,8 +33,8 @@
     return angular.element(element).scope();
   }
 
-  function ngService (service) {
-    return angular.element(document.body).injector().get(service);
+  function ngService (service, element) {
+    return angular.element(element || document.body).injector().get(service);
   }
 
   function godMode () {
